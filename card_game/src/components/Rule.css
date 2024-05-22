@@ -1,0 +1,19 @@
+img{
+    width: 200px;
+}
+
+h2, h5, p{
+    border: solid grey;
+    border-radius: 10px;
+    background-color: rgb(104, 103, 103);
+}
+
+h5{
+    padding: 30px 7px;
+}
+
+.cost {
+    background-color: rgb(99, 121, 67) ;
+    border-radius: 50px;
+    width: 1;
+}
