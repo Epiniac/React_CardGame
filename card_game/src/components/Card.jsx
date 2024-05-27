@@ -1,15 +1,21 @@
 import './Card.css'
-import Rule from './Rule.jsx'
 
-function Card({cards}) {
+function Card({name,cost,img,description,type}) {
+
     return (
-    <div className='deck'>
-        {cards.map((card,index) => (
-            <div key={index} className='card3d'>
-                <Rule name={card.name} cost={card.cost} img={card.img} description={card.description} type={card.type} />
+        <div className="card3d">
+            <div className='cost'>
+                <h2 className='costdetail'>{cost}</h2>
             </div>
-        ))}
-    </div>
+            <article className='main'>
+                    <img src={img} />
+                    <div className='description'>
+                        <h2>{name}</h2>
+                        <h5>{description}</h5>
+                        <p>Type: {type}</p>
+                    </div>
+            </article>
+        </div>
     )
 }
 

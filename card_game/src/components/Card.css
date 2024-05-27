@@ -1,18 +1,37 @@
 .card3d {
-  margin: 10px;
   transform: scale(1);
   perspective: 600px;
-  border: solid rgb(168, 166, 166) 5px;
+  border: solid rgba(168, 166, 166, 0.84) 5px;
   background-color: rgb(178, 147, 108);
   border-radius: 12px;
+  text-align: center;
+  padding: 20px 30px;
 }
 
-.card3d:hover {
-  z-index: 10;
-  transform: scale(1.3);
+img{
+  width: 190px;
 }
 
-.card3d,
-.card3d img {
-  transition: all 250ms ease-out;
+h2, h5, p{
+  border-radius: 10px;
+  background-color: rgb(104, 103, 103);
+}
+
+h5{
+  padding: 30px 42px;
+}
+
+.cost {
+  background-color: rgb(99, 121, 67) ;
+  border-radius: 50px;
+}
+
+
+.costdetail {
+  background-color: rgb(99, 121, 67) ;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
 }
