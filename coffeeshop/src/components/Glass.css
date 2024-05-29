@@ -1,0 +1,9 @@
+.glass{
+    width: 300px;
+    height: 420px;
+    background-color: rgba(141, 141, 141, 0.979);
+    position: absolute;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+
